@@ -26,10 +26,11 @@ public class ContractEmployee : IBillable
     }
 }
 
-public class BillingCalculator
+public class ReportCalculator
 {
     public int CalculateCost(IBillable employee, int hours)
     {
         return employee.CostForDay(hours);
     }
 }
+
