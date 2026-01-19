@@ -12,6 +12,7 @@ public class FullTimeEmployee : IBillable
 
     public int CostForDay(int hours)
     {
+        //  勤務時間に関係なく日給固定
         return DailyRate;
     }
 }
